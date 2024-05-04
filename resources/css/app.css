@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply title-btn inline-flex items-center justify-center text-center px-6 py-2 rounded-md;
+}
+
+.btn-primary{
+    @apply bg-base-200 text-white;
+}
+
+.btn-secondary{
+    @apply bg-neutral text-black;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.icon-title{
+    background-image: linear-gradient(90deg, rgba(255,235,219,1) 0%, rgba(255,179,191,1) 43%);
+    background-clip: text;
+    @apply text-base-300;
+}
