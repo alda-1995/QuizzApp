@@ -12,8 +12,14 @@
 </head>
 
 <body class="antialiased">
-    <x-menu.navbar />
-    @yield('content')
+    <x-dashboard.sidebar />
+    <main class="bg-gray-50 min-h-screen xl:pl-60">
+        <div class="py-28 xl:py-16">
+            <div class="container">
+                @yield('content')
+            </div>
+        </div>
+    </main>
     <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
     @vite('resources/js/app.js')
 </body>

@@ -1,4 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.dash')
+@section('content')
+    <x-player.detalle-quizz />
+@endsection
+{{-- @extends('layouts.app')
 <div class="bg-gradient-brown w-full min-h-screen pt-32 pb-24">
     <div class="container">
         <h2 class="title-medium font-medium text-base-100 mb-6 lg:mb-8">Divierte constestando los test.</h2>
@@ -13,4 +17,4 @@
             </x-cards.card-empty>
         </div>
     </div>
-</div>
+</div> --}}
